@@ -23,6 +23,10 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # NFC
 $(call inherit-product, device/lge/g2-common/nfc.mk)
 
+# Bootanimation and recovery
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH  := 1080
+
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensor_def_d802.conf:system/etc/sensor_def_variable.conf
