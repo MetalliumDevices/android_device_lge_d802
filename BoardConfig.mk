@@ -22,3 +22,6 @@ TARGET_OTA_ASSERT_DEVICE := d802,g2,galbi,d800
 
 G2_DTS_TARGET := msm8974-g2-open_com
 
+# Graphics
+HWUI_COMPILE_FOR_PERF := true
+
